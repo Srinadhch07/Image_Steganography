@@ -22,11 +22,11 @@ This project implements **LSB-based steganography** to securely embed sensitive 
 ### Running the Application
 #### **Encoding Data:**
 ```bash
-python steganography.py --hide --image input.jpg --output encoded.png --data secret.txt
+python encryption.py --hide --image input.jpg --output encoded.png --data secret.txt
 ```
 #### **Decoding Data:**
 ```bash
-python steganography.py --extract --image encoded.png --output extracted.txt
+python decryption.py --extract --image encoded.png --output extracted.txt
 ```
 
 ## Target Users
@@ -44,7 +44,7 @@ python steganography.py --extract --image encoded.png --output extracted.txt
 ## Repository Contents
 📂 **Source Code** – Python scripts for encryption and decryption  
 📂 **Sample Data** – Includes original and encoded images  
-📂 **Documentation** – Project reports and presentations  
+📂 **Presentation** – Project reports and presentations  
 
 ## Contributing
 Contributions are welcome! Feel free to fork the repository, submit issues, or open pull requests.
